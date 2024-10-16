@@ -5,8 +5,8 @@ import { FiFacebook } from "react-icons/fi";
 function Footer() {
   return (
     <div className="w-full bg-[#F4EBD0] text-[#122620] tracking-wider">
-      <div className="max-w-5xl mx-auto flex gap-2 py-24">
-        <div className="w-1/2 space-y-3">
+      <div className="max-w-5xl mx-auto flex-col md:flex gap-2 py-24 px-4 space-y-8 md:space-y-0">
+        <div className="w-full lg:w-1/2 space-y-3">
           <p className="text-[30px] font-semibold">CONTACT US</p>
           <div>
             <p className="font-semibold">Address:</p>
@@ -23,7 +23,7 @@ function Footer() {
             <a href="tel:+919820808944">+91 98208 08944</a>
           </div>
         </div>
-        <div className="w-1/2 space-y-3">
+        <div className="w-full lg:w-1/2 space-y-3">
           <p className="text-[30px] font-semibold">Website Details</p>
 
           <div className="mt-4">
@@ -32,7 +32,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-[#122620] h-[2px] w-full" />
-      <div className="max-w-5xl mx-auto flex justify-between py-4">
+      <div className="max-w-5xl mx-auto flex justify-between items-center py-4 px-4">
         <div>© 2021 FK London | Web Design By The Web Surgery</div>
         <div className="flex gap-2">
           <div className="border-black p-2 border-solid border-2 rounded-full w-11 flex justify-center items-center cursor-pointer hover:bg-[#122620] transition-all duration-300 hover:text-white">
