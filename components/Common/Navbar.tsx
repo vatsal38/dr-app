@@ -85,12 +85,12 @@ function Navbar() {
             <span className="font-semibold hover:font-normal cursor-pointer tracking-wider">
               Treatments
             </span>
-            {/* <span className="font-semibold hover:font-normal cursor-pointer tracking-wider">
-              Our Courses
-            </span> */}
             <span className="font-semibold hover:font-normal cursor-pointer tracking-wider">
-              Online Booking
+              Our Courses
             </span>
+            {/* <span className="font-semibold hover:font-normal cursor-pointer tracking-wider">
+              Online Booking
+            </span> */}
             <span className="font-semibold hover:font-normal cursor-pointer tracking-wider">
               Contact
             </span>
