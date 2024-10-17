@@ -5,7 +5,7 @@ import { FiFacebook } from "react-icons/fi";
 function Footer() {
   return (
     <div className="w-full bg-[#F4EBD0] text-[#122620] tracking-wider">
-      <div className="max-w-5xl mx-auto flex-col md:flex gap-2 py-24 px-4 space-y-8 md:space-y-0">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-2 py-24 px-4 space-y-8 md:space-y-0">
         <div className="w-full lg:w-1/2 space-y-3">
           <p className="text-[30px] font-semibold">CONTACT US</p>
           <div>

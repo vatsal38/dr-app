@@ -24,7 +24,7 @@ function Dashboard() {
                 <span className="font-semibold">NON-DOCTORS</span>
               </div>
               <div className="w-full flex justify-center mt-5">
-                <div className="flex-col sm:flex gap-6 text-white">
+                <div className="flex flex-col sm:flex-row gap-6 text-white">
                   <div className="flex gap-2 bg-[#122620] items-center p-4 rounded-lg cursor-pointer hover:bg-transparent hover:text-[#122620] text-white transition-all duration-300 hover:border hover:border-[#122620] tracking-wide hover:font-semibold">
                     <MdKeyboardArrowRight size={30} />
                     <div className="text-xl">Aesthetic Courses</div>
@@ -93,7 +93,7 @@ function Dashboard() {
         }}
       >
         <div className="w-full px-4">
-          <div className="max-w-7xl mx-auto flex-col sm:flex gap-2 items-center justify-between space-y-4">
+          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row gap-2 items-center justify-between space-y-4">
             <div className="text-white font-semibold text-base sm:text-[30px] max-w-3xl sm:leading-10 leading-5">
               IF YOU HAVE ANY QUESTIONS OR WOULD LIKE TO MAKE A BOOKING PLEASE
               CONTACT US
