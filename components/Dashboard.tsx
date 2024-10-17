@@ -29,10 +29,10 @@ function Dashboard() {
                     <MdKeyboardArrowRight size={30} />
                     <div className="text-xl">Aesthetic Courses</div>
                   </div>
-                  <div className="flex gap-2 bg-[#122620] items-center p-4 rounded-lg cursor-pointer hover:bg-transparent hover:text-[#122620] text-white transition-all duration-300 hover:border hover:border-[#122620] tracking-wide hover:font-semibold mt-2 sm:mt-0">
+                  {/* <div className="flex gap-2 bg-[#122620] items-center p-4 rounded-lg cursor-pointer hover:bg-transparent hover:text-[#122620] text-white transition-all duration-300 hover:border hover:border-[#122620] tracking-wide hover:font-semibold mt-2 sm:mt-0">
                     <MdKeyboardArrowRight size={30} />
                     <div className="text-xl">Dermatology Courses</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
